@@ -1,21 +1,3 @@
-Zhang, Stephen X. & Gokhan Ertug (2025), Organization Research as an Applied Science: Lessons from Fields that Shape Practice and Policy, Organization Science 
-Zhang, Ziheng, Matthew, Mount & Stephen X. Zhang (2025), A Database Of Chief Financial Officer Turnover And Dismissal In S&P 1500 Firms, 2000–2022", Strategic Management Journal 
-Adomako, Samuel, Stephen X. Zhang & Kehinde Medase  (2024) How and When Adversity Breeds Ingenuity in an Emerging Market: Environmental Threats, Co-Innovation, and Frugal Innovation, Research Policy 
-Tang, Jintong, Wenping Ye, Mingzhi Hu, Stephen X. Zhang, & Shaji Khan (2024) The Gendered Effect of Populism on Innovation, Journal of Business Venturing 
-Wang, Wei, Kimberly Eddleston, Stephen X. Zhang, Francesco Chirico, Quaozhuan Liang, & Wei Deng (2023) Family Diversity and Business Start-Up: Do Family Meals Feed the Fire of Entrepreneurship?”, Entrepreneurship Theory and Practice
-Wan, Xue., Stephen X. Zhang, and Feng Wei (2022) CEO–TMT Congruence in Growth-Need Strength and Firm Growth, Journal of Management Studies
-Chin, M.K., S. X. Zhang, A. Afshar-Jahanshahi and S. Nadkarni, (2021) The Effect of Two Dimensions of CEO Political Ideology on Corporate Entrepreneurship, Academy of Management Journal, 64(4), 1213-1235
-Tang, S., S. Nadkarni, L.-Q. Wei, & S. X. Zhang (2020) Balancing the Yin and Yang: TMT Gender Diversity, Psychological Safety, and Firm Strategic Orientation in Chinese High-tech SMEs, Academy of Management Journal
-Zhang, S. X. R. Gao, N. Odeh, & M. Leatherbee (2020) A Micro-Foundational Model of Real Options Reasoning: The Roles of Individual Search Propensity and Perceived Uncertainty, Strategic Entrepreneurship Journal
-Schmitt A., K. Rosing, S.X. Zhang, & M. Leatherbee (2018). Facing the Challenge of Uncertainty: The Role of Entrepreneurial Self-efficacy for Exploration and Business Opportunity Identification under Perceived Uncertainty, Entrepreneurship Theory & Practice, 42 (6), 835-859 
-Zhang, S. X. and J. Cueto (2017). The Study of Bias in Entrepreneurship, Entrepreneurship Theory & Practice, 41 (3): 419-454
-
-
-
-
-
-
-
 import { useState } from "react";
 import Layout from "../components/Layout";
 
