@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-neutral-900">
       <Head>
-        <title>Stephen X. Zhang | Entrepreneurship & Innovation | Baylor University</title>
+        <title>Stephen Zhang | Entrepreneurship & Innovation | Baylor University</title>
         <meta name="description" content="Entrepreneurship & Innovation scholar. Building Startup Navigator to transform how founders and instructors test ideas."/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <script
@@ -13,8 +13,8 @@ export default function Home() {
           dangerouslySetInnerHTML={{__html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Stephen X. Zhang",
-            "jobTitle": "Associate Professor of Entrepreneurship & Innovation; Terry S. Maness Endowed Chair",
+            "name": "Stephen Zhang",
+            "jobTitle": "Maness Chair of Entrepreneurship & Innovation",
             "affiliation": {"@type": "CollegeOrUniversity", "name": "Baylor University"},
             "url": "https://stephenxzhang.com/",
             "sameAs": ["https://scholar.google.com/", "https://www.linkedin.com/", "https://orcid.org/"]
@@ -26,7 +26,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-100">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="flex h-16 items-center justify-between">
-            <a href="#home" className="font-semibold tracking-tight text-xl">Stephen X. Zhang</a>
+            <a href="#home" className="font-semibold tracking-tight text-xl">Stephen Zhang</a>
             <nav className="hidden md:flex items-center gap-6 text-sm">
               <a className="hover:text-neutral-600" href="#research">Research</a>
               <a className="hover:text-neutral-600" href="#teaching">Teaching</a>
@@ -52,7 +52,7 @@ export default function Home() {
                 Entrepreneurship & Innovation scholar
               </h1>
               <p className="mt-4 text-lg text-neutral-700 max-w-prose">
-                Associate Professor and Terry S. Maness Endowed Chair, Baylor University. I study how entrepreneurs and executives shape strategy and operations. I am building <span className="font-medium">Startup Navigator</span> to help founders and instructors test ideas with evidence.
+                Maness Chair of Entrepreneurship & Innovation, Baylor University. I study how entrepreneurs and executives shape strategy and operations. I am building <span className="font-medium">Startup Navigator</span> to help founders and instructors test ideas with evidence.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a href="#navigator" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-neutral-900 text-white">For Entrepreneurs</a>
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="md:col-span-2">
               <div className="aspect-[4/5] w-full rounded-2xl bg-neutral-100 overflow-hidden shadow-sm">
-                <img src="/headshot.jpg" alt="Stephen X. Zhang headshot" className="h-full w-full object-cover"/>
+                <img src="/headshot.jpg" alt="Stephen Zhang headshot" className="h-full w-full object-cover"/>
               </div>
             </div>
           </div>
@@ -230,7 +230,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-neutral-100">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 py-8 text-sm text-neutral-600 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} Stephen X. Zhang</p>
+          <p>© {new Date().getFullYear()} Stephen Zhang</p>
           <div className="flex items-center gap-4">
             <a className="underline hover:no-underline" href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
             <a className="underline hover:no-underline" href="https://orcid.org" target="_blank" rel="noreferrer">ORCID</a>
