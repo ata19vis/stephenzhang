@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout title="Contact" description="Reach out about speaking, research, or Navigator pilots.">
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-14">
         <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
-        <p className="mt-2 text-neutral-700">For speaking, research, or Navigator pilots. Use the form—no public email displayed.</p>
+        <p className="mt-2 text-neutral-700">For speaking, research, or Navigator pilots. Use the form.</p>
 
         <div className="mt-6 grid md:grid-cols-2 gap-6">
           <div className="rounded-2xl border border-neutral-200 p-5">
