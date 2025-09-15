@@ -42,11 +42,11 @@ export default function Layout({ title, description, children }: Props) {
               <a className="hover:text-neutral-600" href="/navigator">Navigator</a>
               <a className="hover:text-neutral-600" href="/research">Research</a>
               <a className="hover:text-neutral-600" href="/teaching">Teaching</a>
-              <a className="hover:text-neutral-600" href="/media">Success Stories / Media</a>
+              {/* Media link removed */}
               <a className="hover:text-neutral-600" href="/contact">Contact</a>
             </nav>
 
-            {/* Mobile menu button */}
+            {/* Mobile menu */}
             <button
               aria-label="Menu"
               className="md:hidden rounded-lg border border-neutral-200 px-3 py-1 text-sm"
@@ -65,7 +65,7 @@ export default function Layout({ title, description, children }: Props) {
               <a href="/navigator" onClick={() => setOpen(false)} className="hover:text-neutral-600">Navigator</a>
               <a href="/research" onClick={() => setOpen(false)} className="hover:text-neutral-600">Research</a>
               <a href="/teaching" onClick={() => setOpen(false)} className="hover:text-neutral-600">Teaching</a>
-              <a href="/media" onClick={() => setOpen(false)} className="hover:text-neutral-600">Success Stories / Media</a>
+              {/* Media link removed */}
               <a href="/contact" onClick={() => setOpen(false)} className="hover:text-neutral-600">Contact</a>
             </nav>
           </div>
