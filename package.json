@@ -8,15 +8,16 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "@sanity/client": "latest",
-    "@vercel/kv": "latest",
-    "next": "15.5.3",
-    "next-sanity": "11.1.1",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "@sanity/vision": "^3.0.0",
-    "sanity": "latest"
+"dependencies": {
+  "@sanity/client": "latest",
+  "@vercel/kv": "latest",
+  "next": "15.5.3",
+  "next-sanity": "latest",
+  "react": "19.0.0",
+  "react-dom": "19.0.0",
+  "@sanity/vision": "latest",
+  "sanity": "latest"
+},
   },
   "devDependencies": {
     "@types/node": "20.11.30",
