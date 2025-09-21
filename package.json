@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
 "dependencies": {
-  "@sanity/client": "latest",
+  "@sanity/client": "^6.0.0",
   "@vercel/kv": "latest",
   "next": "15.5.3",
-  "next-sanity": "latest",
+  "next-sanity": "^9.0.0",
   "react": "19.0.0",
   "react-dom": "19.0.0",
-  "@sanity/vision": "latest",
-  "sanity": "latest"
+  "sanity": "^3.0.0"
+}
 },
   },
   "devDependencies": {
