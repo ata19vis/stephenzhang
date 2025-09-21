@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { sanityClient } from "../lib/sanity.client";
+import { client } from "../lib/sanity.client";  // Changed this line
 import { ABOUT_QUERY } from "../lib/queries";
 
 type AboutData = {
@@ -11,10 +11,12 @@ type AboutData = {
 export async function getStaticProps() {
   let data: AboutData | null = null;
   try {
-    data = await sanityClient.fetch(ABOUT_QUERY);
+    data = await client.fetch(ABOUT_QUERY);  // Changed this line
   } catch {}
   return { props: { data }, revalidate: 60 };
 }
+
+// ... rest of your component remains the same
 
 export default function About({ data }: { data: AboutData | null }) {
   const shortBio =
