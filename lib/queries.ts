@@ -9,7 +9,5 @@ export const HOME_QUERY = `*[_type=="home"][0]{
 export const ABOUT_QUERY = `*[_type=="about"][0]{
   shortBio,
   "cvUrl": coalesce(cvUrl, "/cv.pdf"),
-  headshot,
-  researchAPA,
-  teachingItems
+  headshot{asset->{url}}
 }`;
