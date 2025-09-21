@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@sanity/client": "^6.0.0",
-    "@vercel/kv": "latest",
+    "@vercel/kv": "latest", 
     "next": "15.5.3",
     "next-sanity": "^9.0.0",
     "react": "19.0.0",
