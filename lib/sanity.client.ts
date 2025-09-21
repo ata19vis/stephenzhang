@@ -1,9 +1,8 @@
-import { createClient } from "@sanity/client";
+import { createClient } from '@sanity/client'
 
-export const sanityClient = createClient({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || process.env.SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || process.env.SANITY_DATASET || "production",
-  apiVersion: process.env.SANITY_API_VERSION || "2025-01-01",
-  useCdn: true,
-  token: process.env.SANITY_READ_TOKEN, // used for server-side if needed
-});
+export const client = createClient({
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+  apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2025-09-09',
+  useCdn: process.env.NODE_ENV === 'production',
+})
