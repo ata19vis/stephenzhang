@@ -1,7 +1,6 @@
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
 
-// Minimal Studio so the site builds even if you haven't added schemas yet
 export default defineConfig({
   name: "default",
   title: "Stephen Site CMS",
